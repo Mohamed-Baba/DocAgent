@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docagent"
+version = "0.1.0"
+description = "A research assistant over scientific PDFs that cites its pages or abstains"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "requests",
+    "pillow",
+    "torch",
+    "transformers",
+    "docling",
+    "pypdfium2",
+    "streamlit",
+    "pytest",
+]
+
+[tool.setuptools]
+packages = ["docagent"]

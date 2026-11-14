@@ -1,0 +1,33 @@
+# The corpus and everything extracted from it: not ours to publish, and large
+data/pdfs/
+data/pages.jsonl
+data/page_images/
+cache/
+
+# Runs: keep only the results table
+runs/*
+!runs/results.md
+runs_v*/
+
+# Personal notes of the chat interface
+app/notes.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# Environments, editors, OS
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+README_TP.md
+*.zip
